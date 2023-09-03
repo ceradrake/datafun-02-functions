@@ -1,25 +1,30 @@
-2023-09-02 22:13:51,675.user_math_ceradrake.INFO ==================================================
-2023-09-02 22:13:51,675.user_math_ceradrake.INFO Today is 2023-09-02 at 10:13 PM
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO Running on: nt Windows 10
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO Python version:  3.11.4
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO Python path: C:\Users\cerad\AppData\Local\Programs\Python\Python311
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO Working dir: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-02-functions
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO ==================================================
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO Explore some functions in the math module
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO math.comb(5,1) = 5
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO math.perm(5,1) = 5
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO TRY: Call get_area_of_packingbox() function with different values.
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(6, 4)
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO The area of a packing box is 24
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(12, 18)
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO The area of a packing box is 216
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(10, 10)
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO The area of a packing box is 100
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO TRY: Call value_of_floralarrangement() function with different values.
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO CALLING value_of_floralarrangement(40, 1.3)
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO The value of the floral arrangment is 52.0
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO CALLING value_of_floralarrangement(70, 1.35)
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO The value of the floral arrangment is 94.5
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO TRY: Call subtotal_of_customerorder
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO CALLING subtotal_of_customerorder (20, 2, 3)
-2023-09-02 22:13:51,718.user_math_ceradrake.INFO The subtotal of the customer order is 25.00
+2023-09-02 22:21:08,500.user_math_ceradrake.INFO ==================================================
+2023-09-02 22:21:08,500.user_math_ceradrake.INFO Today is 2023-09-02 at 10:21 PM
+2023-09-02 22:21:08,544.user_math_ceradrake.INFO Running on: nt Windows 10
+2023-09-02 22:21:08,544.user_math_ceradrake.INFO Python version:  3.11.4
+2023-09-02 22:21:08,544.user_math_ceradrake.INFO Python path: C:\Users\cerad\AppData\Local\Programs\Python\Python311
+2023-09-02 22:21:08,545.user_math_ceradrake.INFO Working dir: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-02-functions
+2023-09-02 22:21:08,545.user_math_ceradrake.INFO ==================================================
+2023-09-02 22:21:08,545.user_math_ceradrake.INFO Explore some functions in the math module
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO math.comb(5,1) = 5
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO math.perm(5,1) = 5
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO TRY: Call get_area_of_packingbox() function with different values.
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(6, 4)
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO The area of a packing box is 24
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(12, 18)
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO The area of a packing box is 216
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(10, 10)
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO The area of a packing box is 100
+2023-09-02 22:21:08,546.user_math_ceradrake.INFO TRY: Call value_of_floralarrangement() function with different values.
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO CALLING value_of_floralarrangement(40, 1.3)
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO The value of the floral arrangment is 52.0
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO CALLING value_of_floralarrangement(70, 1.35)
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO The value of the floral arrangment is 94.5
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO TRY: Call subtotal_of_customerorder
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO CALLING subtotal_of_customerorder (20, 2, 3)
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO The subtotal of the customer order is 25.00
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO TRY: Call average_sale
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO CALLING average_sale (150, 4)
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO The average sale is 37.5]
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO CALLING average_sale (350, 10)
+2023-09-02 22:21:08,550.user_math_ceradrake.INFO The average sale is 35.0]
