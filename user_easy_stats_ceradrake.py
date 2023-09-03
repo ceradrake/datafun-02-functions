@@ -30,6 +30,11 @@ mean_grossales = statistics.mean(grossales)
 median_grossales = statistics.median(grossales)
 mode_grossales = statistics.mode(grossales)
 
+lowestyears = min(years)
+highestyears = max(years)
+lowestgrossales = min(grossales)
+highestgrossales = max(grossales)
+
 logger.info(f"Years in business Mean is {mean_years}")
 logger.info(f"Years in business median is {median_years}")
 logger.info(f"Years in business mode is {mode_years}")
