@@ -39,6 +39,8 @@ Log the result of each function just before you return the result
 
 import doctest
 
+import math
+
 from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
@@ -46,6 +48,14 @@ logger, logname = setup_logger(__file__)
 # TODO: Log each time the function is called (along with its arguments)
 # TODO: Log the result of each function just before you return the result
 
+def sum_two(integerlist):
+    try: 
+        sum = math.fsum (integerlist)
+        logger.info(f"The sum is {sum}")
+        return sum
+    except Exception as ex: 
+        logger.error(f"Error: {ex}")
+        return None
 
 
 
@@ -60,7 +70,6 @@ def transform_using_keyword_args_with_default_values(input="bearcat", reverse=Fa
     
     s = f"CALLING transform_using_keyword_args_with_default_values(input={input}, reverse={reverse})"
     logger.info(s)
-
     result = input
 
     logger.info(f"RETURNING {result}")
@@ -70,6 +79,11 @@ def transform_using_keyword_args_with_default_values(input="bearcat", reverse=Fa
 
 if __name__ == "__main__":
 
+    logger.info(f"TRY: Calling sum_two")
+    integerlist = (2,3)
+    sum_two(integerlist)
+    
+    
     # -------------------------------------------------------------
     # Call some functions and execute code!
     # Nothing below here needs to change
