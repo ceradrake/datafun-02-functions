@@ -43,10 +43,20 @@ def subtotal_of_customerorder(items_list):
     except Exception as ex: 
         logger.error(f"Error: {ex}")
         return None
+    
+#Calculate the average sale 
         
+def average_sale(total_sales, number_of_sales):
+    logger.info(f"CALLING average_sale {total_sales, number_of_sales}")
 
-
-
+    try: 
+        average = total_sales / number_of_sales 
+        logger.info(f"The average sale is {average}]")
+        return average
+    except Exception as ex: 
+        logger.error(f"Error: {ex}")
+        return None
+    
 if __name__ == "__main__":
 
     logger.info("Explore some functions in the math module")
@@ -65,5 +75,10 @@ if __name__ == "__main__":
     logger.info(f"TRY: Call subtotal_of_customerorder")
     items_list = (20, 2, 3)
     subtotal_of_customerorder(items_list)
-    
+
+    logger.info(f"TRY: Call average_sale")
+    average_sale(150, 4)
+    average_sale(350, 10)
+
+
 
