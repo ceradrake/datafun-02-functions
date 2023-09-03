@@ -35,6 +35,8 @@ highestyears = max(years)
 lowestgrossales = min(grossales)
 highestgrossales = max(grossales)
 
+
+
 logger.info(f"Years in business Mean is {mean_years}")
 logger.info(f"Years in business median is {median_years}")
 logger.info(f"Years in business mode is {mode_years}")
@@ -42,4 +44,9 @@ logger.info(f"Years in business mode is {mode_years}")
 logger.info(f"Gross sales mean is {mean_grossales}")
 logger.info(f"Gross sales median is {median_grossales}")
 logger.info(f"Gross sales mode is {mode_grossales}")
+
+logger.info(f"Lowest years in business is {min(years)}")
+logger.info(f"Highest years in business is {max(years)}")
+logger.info(f"Lowest gross sales is {min(grossales)}")
+logger.info(f"Highest gross sales is {max(grossales)}")
 
