@@ -25,11 +25,26 @@ def value_of_floralarrangement(cost, labor):
 
     try: 
         value = cost * labor
-        logger.info("The value of the floral arrangement is {value}")
+        logger.info(f"The value of the floral arrangment is {value}")
         return value 
     except Exception as ex: 
         logger.error(f"Error: {ex}")
         return None
+
+#Calculate the subtotal of a customer's purchase 
+
+def subtotal_of_customerorder(items_list): 
+    logger.info(f"CALLING subtotal_of_customerorder {items_list}")
+
+    try: 
+        subtotal = math.fsum(items_list)
+        logger.info(f"The subtotal of the customer order is {subtotal:.2f}")
+        return subtotal 
+    except Exception as ex: 
+        logger.error(f"Error: {ex}")
+        return None
+        
+
 
 
 if __name__ == "__main__":
@@ -44,6 +59,11 @@ if __name__ == "__main__":
     get_area_of_packingbox(10,10)
 
     logger.info(f"TRY: Call value_of_floralarrangement() function with different values.")
-    value_of_floralarrangement(40, 1.30)
-    value_of_floralarrangement(70, 1.35)
+    value_of_floralarrangement(40,1.30)
+    value_of_floralarrangement(70,1.35)
+
+    logger.info(f"TRY: Call subtotal_of_customerorder")
+    items_list = (20, 2, 3)
+    subtotal_of_customerorder(items_list)
+    
 
