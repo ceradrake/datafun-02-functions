@@ -40,6 +40,10 @@ var_grossales = statistics.variance(grossales)
 var_years = round(var_years, 2)
 var_grossales = round(var_grossales, 2)
 
+stdev_years = statistics.stdev(years)
+stdev_grossales = statistics.stdev(grossales)
+stdev_years = round(stdev_years, 2)
+stdev_grossales = round(stdev_grossales, 2)
 
 
 logger.info(f"Years in business Mean is {mean_years}")
@@ -57,5 +61,9 @@ logger.info(f"Highest gross sales is {max(grossales)}")
 
 logger.info(f"Variance of years in business is {var_years}")
 logger.info(f"Variance of gross sales is {var_grossales}")
+
+logger.info(f"Years in business standard deviation is {stdev_years}")
+logger.info(f"Gross sales standard deviation is {stdev_grossales}")
+
 
 
