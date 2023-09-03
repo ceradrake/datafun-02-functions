@@ -1,0 +1,26 @@
+2023-09-02 22:43:26,106.xtra_p2.INFO ==================================================
+2023-09-02 22:43:26,122.xtra_p2.INFO Today is 2023-09-02 at 10:43 PM
+2023-09-02 22:43:26,172.xtra_p2.INFO Running on: nt Windows 10
+2023-09-02 22:43:26,172.xtra_p2.INFO Python version:  3.11.4
+2023-09-02 22:43:26,172.xtra_p2.INFO Python path: C:\Users\cerad\AppData\Local\Programs\Python\Python311
+2023-09-02 22:43:26,172.xtra_p2.INFO Working dir: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-02-functions
+2023-09-02 22:43:26,172.xtra_p2.INFO ==================================================
+2023-09-02 22:43:26,172.xtra_p2.INFO TRY: Calling sum_two
+2023-09-02 22:43:26,172.xtra_p2.INFO The sum is 5.0
+2023-09-02 22:43:26,178.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-02 22:43:26,178.xtra_p2.INFO RETURNING bearcat
+2023-09-02 22:43:26,178.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-02 22:43:26,178.xtra_p2.INFO RETURNING bearcat
+2023-09-02 22:43:26,178.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-02 22:43:26,178.xtra_p2.INFO RETURNING hello
+2023-09-02 22:43:26,178.xtra_p2.INFO ===========================================================
+2023-09-02 22:43:26,178.xtra_p2.INFO Running doctest.testmod() function to unit test our code
+2023-09-02 22:43:26,178.xtra_p2.INFO ===========================================================
+2023-09-02 22:43:26,195.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-09-02 22:43:26,195.xtra_p2.INFO RETURNING bearcat
+2023-09-02 22:43:26,199.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-09-02 22:43:26,199.xtra_p2.INFO RETURNING bearcat
+2023-09-02 22:43:26,199.xtra_p2.INFO CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-09-02 22:43:26,203.xtra_p2.INFO RETURNING hello
+2023-09-02 22:43:26,211.xtra_p2.ERROR 8 tests failed!
+2023-09-02 22:43:26,211.xtra_p2.INFO Script complete. More info in the log file.
