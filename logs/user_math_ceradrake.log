@@ -1,7 +1,17 @@
-2023-09-02 20:07:41,675.user_math_ceradrake.INFO ==================================================
-2023-09-02 20:07:41,683.user_math_ceradrake.INFO Today is 2023-09-02 at 08:07 PM
-2023-09-02 20:07:41,731.user_math_ceradrake.INFO Running on: nt Windows 10
-2023-09-02 20:07:41,732.user_math_ceradrake.INFO Python version:  3.11.4
-2023-09-02 20:07:41,732.user_math_ceradrake.INFO Python path: C:\Users\cerad\AppData\Local\Programs\Python\Python311
-2023-09-02 20:07:41,733.user_math_ceradrake.INFO Working dir: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-02-functions
-2023-09-02 20:07:41,733.user_math_ceradrake.INFO ==================================================
+2023-09-02 21:54:03,141.user_math_ceradrake.INFO ==================================================
+2023-09-02 21:54:03,141.user_math_ceradrake.INFO Today is 2023-09-02 at 09:54 PM
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO Running on: nt Windows 10
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO Python version:  3.11.4
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO Python path: C:\Users\cerad\AppData\Local\Programs\Python\Python311
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO Working dir: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-02-functions
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO ==================================================
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO Explore some functions in the math module
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO math.comb(5,1) = 5
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO math.perm(5,1) = 5
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO TRY: Call get_area_of_packingbox() function with different values.
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(6, 4)
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO The area of a packing box is 24
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(12, 18)
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO The area of a packing box is 216
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO  CALLING get_area_of_packingbox(10, 10)
+2023-09-02 21:54:03,181.user_math_ceradrake.INFO The area of a packing box is 100
