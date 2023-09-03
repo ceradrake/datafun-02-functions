@@ -11,7 +11,7 @@ class NumericFloralSeries(NumericSeries) :
     def __str__(self):
         return super().__str__()
     
-        str = f"NumericFloralSeries with name={self.name}, units={self.units}, location={self.location}, and {len(self.data)} data points: {self.data}"
+        str = f"NumericFloralSeries with name={self.name}, units={self.units}, data={self.data} location={self.location}"
         return str
 
 if __name__ == "__main__":
