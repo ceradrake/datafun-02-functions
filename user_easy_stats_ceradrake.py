@@ -35,6 +35,11 @@ highestyears = max(years)
 lowestgrossales = min(grossales)
 highestgrossales = max(grossales)
 
+var_years = statistics.variance(years)
+var_grossales = statistics.variance(grossales)
+var_years = round(var_years, 2)
+var_grossales = round(var_grossales, 2)
+
 
 
 logger.info(f"Years in business Mean is {mean_years}")
@@ -49,4 +54,8 @@ logger.info(f"Lowest years in business is {min(years)}")
 logger.info(f"Highest years in business is {max(years)}")
 logger.info(f"Lowest gross sales is {min(grossales)}")
 logger.info(f"Highest gross sales is {max(grossales)}")
+
+logger.info(f"Variance of years in business is {var_years}")
+logger.info(f"Variance of gross sales is {var_grossales}")
+
 

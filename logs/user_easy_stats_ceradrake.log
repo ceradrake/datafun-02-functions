@@ -1,17 +1,19 @@
-2023-09-02 20:37:54,868.user_easy_stats_ceradrake.INFO ==================================================
-2023-09-02 20:37:54,882.user_easy_stats_ceradrake.INFO Today is 2023-09-02 at 08:37 PM
-2023-09-02 20:37:54,957.user_easy_stats_ceradrake.INFO Running on: nt Windows 10
-2023-09-02 20:37:54,957.user_easy_stats_ceradrake.INFO Python version:  3.11.4
-2023-09-02 20:37:54,957.user_easy_stats_ceradrake.INFO Python path: C:\Users\cerad\AppData\Local\Programs\Python\Python311
-2023-09-02 20:37:54,957.user_easy_stats_ceradrake.INFO Working dir: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-02-functions
-2023-09-02 20:37:54,965.user_easy_stats_ceradrake.INFO ==================================================
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Years in business Mean is 2.5
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Years in business median is 2.5
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Years in business mode is 1
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Gross sales mean is 150250
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Gross sales median is 147500.0
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Gross sales mode is 140000
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Lowest years in business is 1
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Highest years in business is 4
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Lowest gross sales is 130000
-2023-09-02 20:37:54,981.user_easy_stats_ceradrake.INFO Highest gross sales is 176000
+2023-09-02 20:41:49,901.user_easy_stats_ceradrake.INFO ==================================================
+2023-09-02 20:41:49,901.user_easy_stats_ceradrake.INFO Today is 2023-09-02 at 08:41 PM
+2023-09-02 20:41:49,944.user_easy_stats_ceradrake.INFO Running on: nt Windows 10
+2023-09-02 20:41:49,944.user_easy_stats_ceradrake.INFO Python version:  3.11.4
+2023-09-02 20:41:49,946.user_easy_stats_ceradrake.INFO Python path: C:\Users\cerad\AppData\Local\Programs\Python\Python311
+2023-09-02 20:41:49,946.user_easy_stats_ceradrake.INFO Working dir: C:\Users\cerad\OneDrive\Desktop\Data Analytics Fundamentals 44608-80.81\datafun-02-functions
+2023-09-02 20:41:49,946.user_easy_stats_ceradrake.INFO ==================================================
+2023-09-02 20:41:49,959.user_easy_stats_ceradrake.INFO Years in business Mean is 2.5
+2023-09-02 20:41:49,959.user_easy_stats_ceradrake.INFO Years in business median is 2.5
+2023-09-02 20:41:49,959.user_easy_stats_ceradrake.INFO Years in business mode is 1
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Gross sales mean is 150250
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Gross sales median is 147500.0
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Gross sales mode is 140000
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Lowest years in business is 1
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Highest years in business is 4
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Lowest gross sales is 130000
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Highest gross sales is 176000
+2023-09-02 20:41:49,961.user_easy_stats_ceradrake.INFO Variance of years in business is 1.67
+2023-09-02 20:41:49,965.user_easy_stats_ceradrake.INFO Variance of gross sales is 400250000
