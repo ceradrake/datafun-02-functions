@@ -18,6 +18,19 @@ def get_area_of_packingbox(height,width):
         logger.error(f"Error: {ex}")
         return None
 
+# Calculate the total value of a floral arrangement 
+
+def value_of_floralarrangement(cost, labor): 
+    logger.info(f"CALLING value_of_floralarrangement{cost, labor}")
+
+    try: 
+        value = cost * labor
+        logger.info("The value of the floral arrangement is {value}")
+        return value 
+    except Exception as ex: 
+        logger.error(f"Error: {ex}")
+        return None
+
 
 if __name__ == "__main__":
 
@@ -29,4 +42,8 @@ if __name__ == "__main__":
     get_area_of_packingbox(6,4)
     get_area_of_packingbox(12,18)
     get_area_of_packingbox(10,10)
-    
+
+    logger.info(f"TRY: Call value_of_floralarrangement() function with different values.")
+    value_of_floralarrangement(40, 1.30)
+    value_of_floralarrangement(70, 1.35)
+
